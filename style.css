@@ -1,5 +1,30 @@
 body {
-    margin: 50px;
-    font-family: Helvetica, sans-serif;
-    font-size: 150%;
+  margin: 50px;
+  font-family: Helvetica, sans-serif;
+  font-size: 150%;
+  background-color: #ff7f50;
+}
+#foodadd,
+#calorieshow {
+  text-align: center;
+  border-color: #4682b4;
+  background: rgba(10, 43, 45, 0);
+  margin-top: 10%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+#foodInput,
+#calInput,
+#totalOutput {
+  text-align: center;
+  background-color: #8c9daa;
+  font-size: 20px;
+}
+legend {
+  font-size: 30px;
+  text-align: center;
+}
+#foodsubmit {
+  font-size: 20px;
+  background-color: #8c9daa;
 }

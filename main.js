@@ -1,7 +1,23 @@
 document.addEventListener("DOMContentLoaded", function (event) {
+  document.getElementById("foodsubmit").addEventListener("click", function () {
+    console.log(FoodArray);
 
-    document.getElementById("button1").addEventListener("click", function () {
+    let xFoodname = document.getElementById("foodInput").value;
+    document.getElementById("calInput").value;
+    let xCalories = parseInt(calInput.value);
+    FoodArray.push(new Food(xFoodname, xCalories));
+    // clear text box
+    document.getElementById("foodInput").value = "";
+    document.getElementById("calInput").value = "";
+  });
 
-        document.getElementById("textbox1").value = "success";
-    });
+  // calorie calculation function call ?
+  // document.getElementById("foodsubmit").addEventListener("click", function () {
+
+  // });
 });
+
+// total calorie function:
+
+// function totalCal() {
+// }

@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <title>starter code</title>
-        <link rel="stylesheet" type="text/css" href="site.css">
-      </head>
-    
-      <body>
-        <h2>starter project</h2>
-    
-        <button type="button" id="button1">Button</button>
-        <div>
-          <br>
-          <input type="text" val="starting value" text="hello" id="textbox1">
-          <br>
-        </div>
-        <div>
-          <br>
-        <script src="main.js"></script>
-      </body>
-    </html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Calorie Tracker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <fieldset id="foodadd">
+      <legend>Track Calories</legend>
+      <label for="foodInput"> Food Name:</label><br>
+      <input name="foodInput" type="text" id="foodInput"> <br>
+      <br>
+      <label for="calInput"> Number of Calories:</label><br>
+      <input name="calInput" type="text" id="calInput"> <br>
+      <br>
+      <input type="button" value="Submit" id="foodsubmit">
+    </fieldset>
+
+    <fieldset id="calorieshow">
+      <legend>Total Calories</legend>
+      <input name="totalOutput" type="text" id="totalOutput"> <br>
+    </fieldset>
+
+    <script src="foodlibrary.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
