@@ -3,6 +3,8 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 150%;
   background-color: #ff7f50;
+  background: rgb(140,157,170);
+  background: linear-gradient(85deg, rgba(140,157,170,1) 10%, rgba(199,142,124,1) 53%, rgba(255,127,80,1) 90%);
 }
 #foodadd,
 #calorieshow {
