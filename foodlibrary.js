@@ -1,12 +1,11 @@
 let Food = function (pFoodname, pCalories) {
   this.foodname = pFoodname;
-  this.calories = pCalories;
+  this.calories = parseInt(pCalories);
 };
 
-FoodArray = []; // define an array to hold Food objects
+FoodArray = []; // defined an array to hold Food objects
 
-// pr-load array with 2 objects
-
+// pre-loaded array with 2 objects
 let newFood1 = new Food("Banana", 110);
 FoodArray.push(newFood1);
 
